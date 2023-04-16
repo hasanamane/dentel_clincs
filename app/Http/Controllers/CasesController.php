@@ -45,8 +45,10 @@ Cases::create([
   }
   public function destroy($id)
   {
-
+ $deletecase=Cases::findorFail($id);
+      $deletecase->delete();
   }
+  
 
 }
 
