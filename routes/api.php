@@ -3,7 +3,7 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PatientsController;
-use App\Http\Controllers\casesController;
+use App\Http\Controllers\CasesController;
 use App\Http\Controllers\IllnessesController;
 use App\Http\Controllers\UsersController;
 
